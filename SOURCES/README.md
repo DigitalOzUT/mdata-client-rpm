@@ -1,7 +1,5 @@
 # Obtaining sources
 
-
-
 Download source tar.gz from github mdata-client release page into SOURCES directory using cURL:
 curl -o mdata-client-0.0.1.tar.gz -L https://codeload.github.com/joyent/mdata-client/tar.gz/20151001
 

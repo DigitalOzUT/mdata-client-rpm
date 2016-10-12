@@ -2,6 +2,7 @@
 %define version 0.0.1 
 %define release 1
 %define dist .el6
+%define tar_version 20151001
 
 Name: mdata-client
 Version: 0.0.1
@@ -19,7 +20,7 @@ Source: %{name}-%{version}.tar.gz
 Metadata retrieval and manipulation tools for use within guests of the SmartOS hypervisor.
 
 %prep
-%setup -q -n %{name}
+%setup -q -n %{name}-%{tar_version}
 
 %build
 make
